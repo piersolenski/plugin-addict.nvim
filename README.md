@@ -6,7 +6,7 @@
 
 Creates a new file with the plugin name from a prompt in your configured plugins directory and opens it for editing.
 
-https://github.com/user-attachments/assets/bc69b5df-6652-4c54-9b1f-8f685fdd6ed1
+https://github.com/user-attachments/assets/b9b1e051-c8eb-4f07-b54f-a5fc3be31ae4
 
 ## 🔩 Installation
 
