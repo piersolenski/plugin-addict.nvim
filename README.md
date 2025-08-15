@@ -4,7 +4,9 @@
 
 ## ✨ Features
 
-Automatically creates a new file with the plugin name in your configured plugins directory and opens it for editing.
+Creates a new file with the plugin name from a prompt in your configured plugins directory and opens it for editing.
+
+https://github.com/user-attachments/assets/bc69b5df-6652-4c54-9b1f-8f685fdd6ed1
 
 ## 🔩 Installation
 
