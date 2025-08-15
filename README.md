@@ -55,9 +55,8 @@ require("plugin-addict").setup({
 | Command | Description |
 | -- | -- |
 | `:PluginAddictNew` | Prompts for a plugin name (e.g., `nvim-treesitter`) and creates a new configuration file for it in your configured `plugins_path` (e.g., `.../lua/plugins/nvim-treesitter.lua`). |
-```
 
 ## ❓FAQ
 
-Q. Did this really need to be a plugin?
-A. No.
+### Did this really need to be a plugin?
+No.
