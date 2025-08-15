@@ -1,13 +1,14 @@
 ---@class CustomModule
 local M = {}
 
+---@param plugins_path string
 ---@return nil
-M.new = function()
+M.new = function(plugins_path)
   local plugin_name = vim.fn.input("Enter plugin name: ")
   if plugin_name ~= "" then
-    local config_path = vim.fn.stdpath("config")
-    local path = string.format("%s/lua/plugins/%s.lua", config_path, plugin_name)
-    vim.cmd("e " .. vim.fn.fnameescape(path))
+    local expanded_path = vim.fn.expand(plugins_path)
+    local new_plugin_file = string.format("%s/%s.lua", expanded_path, plugin_name)
+    vim.cmd("e " .. vim.fn.fnameescape(new_plugin_file))
   end
 end
 

@@ -2,9 +2,9 @@
 local manager = require("plugin-addict.manager")
 
 ---@class Config
----@field opt string Your config option
+---@field plugins_path string The path to your plugins directory
 local config = {
-  path = "~/.config/nvim",
+  plugins_path = vim.fn.stdpath("config") .. "/lua/plugins",
 }
 
 ---@class MyModule
@@ -19,7 +19,8 @@ M.setup = function(args)
 end
 
 M.new = function()
-  return manager.new(M.config.path)
+  return manager.new(M.config.plugins_path)
 end
 
 return M
+
