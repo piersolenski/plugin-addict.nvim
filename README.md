@@ -61,7 +61,7 @@ require("plugin-addict").setup({
 | -- | -- |
 | `:PluginAddictNew` | Prompts for a plugin name (e.g., `nvim-treesitter`) and creates a new configuration file for it in your configured `plugins_path` (e.g., `.../lua/plugins/nvim-treesitter.lua`). |
 
-### FAQ:
+## ❓ FAQ:
 
 **Q: Did this really need to be a plugin?**  
 A: No. But here we are.
@@ -85,4 +85,3 @@ Whether it's to discuss a project, talk shop or just say hi, I'd love to hear fr
 <a href='https://ko-fi.com/piersolenski' target='_blank'>
   <img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 </a>
-
