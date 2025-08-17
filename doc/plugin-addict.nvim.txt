@@ -8,6 +8,7 @@ Table of Contents                       *plugin-addict.nvim-table-of-contents*
   - Installation          |plugin-addict.nvim-plugin-addict.nvim-installation|
   - Configuration        |plugin-addict.nvim-plugin-addict.nvim-configuration|
   - Usage                        |plugin-addict.nvim-plugin-addict.nvim-usage|
+  - FAQ:                          |plugin-addict.nvim-plugin-addict.nvim-faq:|
   - About the author  |plugin-addict.nvim-plugin-addict.nvim-about-the-author|
 
 ==============================================================================
@@ -91,7 +92,7 @@ USAGE                            *plugin-addict.nvim-plugin-addict.nvim-usage*
 
   ---------------------------------------------------------------------------
 
-FAQ: ~
+FAQ:                              *plugin-addict.nvim-plugin-addict.nvim-faq:*
 
 **Q: Did this really need to be a plugin?** A: No. But here we are.
 
