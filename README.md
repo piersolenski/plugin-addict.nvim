@@ -55,11 +55,25 @@ require("plugin-addict").setup({
 
 ## 🚀 Usage
 
-`plugin-addict.nvim` provides a single command to create a new plugin file.
+`plugin-addict.nvim` provides a command and Lua function to create new plugin files:
 
-| Command | Description |
-| -- | -- |
-| `:PluginAddictNew` | Prompts for a plugin name (e.g., `nvim-treesitter`) and creates a new configuration file for it in your configured `plugins_path` (e.g., `.../lua/plugins/nvim-treesitter.lua`). |
+### Lua API
+
+```lua
+-- Prompt for plugin name
+require("plugin-addict").new()
+
+-- Create plugin with specific name
+require("plugin-addict").new("cool-plugin")
+```
+
+### Commands
+
+Prompt for plugin name:
+`:PluginAddictNew [name]`
+
+Create file directly:
+`:PluginAddictNew [name]`
 
 ## ❓ FAQ:
 

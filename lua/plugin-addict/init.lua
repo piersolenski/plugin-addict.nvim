@@ -18,8 +18,8 @@ M.setup = function(args)
   M.config = vim.tbl_deep_extend("force", M.config, args or {})
 end
 
-M.new = function()
-  return manager.new(M.config.plugins_path)
+M.new = function(plugin_name)
+  return manager.new(M.config.plugins_path, plugin_name)
 end
 
 return M
