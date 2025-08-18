@@ -16,7 +16,6 @@ https://github.com/user-attachments/assets/b9b1e051-c8eb-4f07-b54f-a5fc3be31ae4
 ### Lazy
 
 ```lua
--- Lazy
 {
   "piersolenski/plugin-addict.nvim",
   opts = {},
@@ -35,7 +34,6 @@ https://github.com/user-attachments/assets/b9b1e051-c8eb-4f07-b54f-a5fc3be31ae4
 ### Packer
 
 ```lua
--- Packer
 use({
   "piersolenski/plugin-addict.nvim",
   config = function()
