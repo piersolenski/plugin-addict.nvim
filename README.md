@@ -13,17 +13,9 @@ https://github.com/user-attachments/assets/b9b1e051-c8eb-4f07-b54f-a5fc3be31ae4
 
 ## 🔩 Installation
 
-Install the plugin with your preferred package manager:
+### Lazy
 
 ```lua
--- Packer
-use({
-  "piersolenski/plugin-addict.nvim",
-    config = function()
-      require("plugin-addict").setup()
-    end,
-})
-
 -- Lazy
 {
   "piersolenski/plugin-addict.nvim",
@@ -38,6 +30,18 @@ use({
     },
   },
 }
+```
+
+### Packer
+
+```lua
+-- Packer
+use({
+  "piersolenski/plugin-addict.nvim",
+  config = function()
+    require("plugin-addict").setup()
+  end,
+})
 ```
 
 ## ⚙️ Configuration
