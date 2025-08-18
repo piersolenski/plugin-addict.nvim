@@ -37,7 +37,6 @@ INSTALLATION              *plugin-addict.nvim-plugin-addict.nvim-installation*
 LAZY ~
 
 >lua
-    -- Lazy
     {
       "piersolenski/plugin-addict.nvim",
       opts = {},
@@ -57,7 +56,6 @@ LAZY ~
 PACKER ~
 
 >lua
-    -- Packer
     use({
       "piersolenski/plugin-addict.nvim",
       config = function()
